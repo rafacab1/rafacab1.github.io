@@ -1,0 +1,16 @@
+/* p:hover {
+    font-size: 20px;
+} */
+body {
+    background-color: lightyellow;
+}
+
+p {
+    color: brown;
+    padding: 60px;
+    background-color: pink;
+    margin: 30px;
+    margin-right: 300px;
+    border: 10px solid black;
+    font-size: 15vw;
+}
