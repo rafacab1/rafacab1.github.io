@@ -1,0 +1,18 @@
+body {
+    background-color: #2F4F4C;
+}
+
+.bloque {
+    color: #FB805E;
+    font-family: sans-serif;
+    width: 30%;
+    border: 5px solid #FCD606;
+    padding: 20px;
+    margin: 20px;
+    background-color: #FFF8DC;
+}
+
+a {
+    text-decoration: underline;
+    color: #FB805E;
+}
