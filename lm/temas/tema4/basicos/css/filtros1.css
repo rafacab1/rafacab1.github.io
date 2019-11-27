@@ -1,0 +1,36 @@
+img {
+    display: block;
+    width: 500px;
+}
+
+#guitarra0 {
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    -ms-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+#guitarra1 {
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+    filter: blur(10px);
+}
+
+#guitarra2 {
+    -webkit-filter: invert(60%);
+    -moz-filter: invert(60%);
+    -o-filter: invert(60%);
+    -ms-filter: invert(60%);
+    filter: invert(60%);
+}
+
+#guitarra3 {
+    -webkit-filter: sepia(75%);
+    -moz-filter: sepia(75%);
+    -o-filter: sepia(75%);
+    -ms-filter: sepia(75%);
+    filter: sepia(75%);
+}
