@@ -1,0 +1,43 @@
+img {
+    width: 200px;
+}
+
+#t1:hover {
+    animation: a1 2s ease 1s 3 alternate forwards;
+}
+
+#t2:hover {
+    animation: a2 2s ease 0s 3 alternate forwards;
+}
+
+#t3:hover {
+    animation: a3 2s ease 0s 3 alternate forwards;
+}
+
+#t4:hover {
+    animation: a4 2s ease 0s 3 alternate forwards;
+}
+
+@keyframes a1 {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes a2 {
+    100% {
+        width: 500px;
+    }
+}
+
+@keyframes a3 {
+    100% {
+        filter: blur(70px);
+    }
+}
+
+@keyframes a4 {
+    100% {
+        transform: skewy(20deg);
+    }
+}
