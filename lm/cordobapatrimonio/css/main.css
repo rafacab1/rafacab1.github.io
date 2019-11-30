@@ -1,0 +1,13 @@
+body {
+    font-family: Rubik;
+    text-align: center;
+}
+
+h1, h2, h3, aside, footer, img, .menu, .goup {
+    text-align: center;
+}
+
+a {
+    text-decoration: underline;
+    color: green;
+}
