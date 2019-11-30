@@ -1,0 +1,11 @@
+body {
+    font-family: Rubik;
+    text-align: center;
+}
+
+header {
+    color: black;
+    border: 2px solid black;
+    padding: 2em;
+    margin: 2em 35vw;
+}
