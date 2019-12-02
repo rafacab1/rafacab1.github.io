@@ -9,3 +9,7 @@ header {
     padding: 2em;
     margin: 2em 35vw;
 }
+
+a {
+    color: rgb(179, 47, 161);
+}
