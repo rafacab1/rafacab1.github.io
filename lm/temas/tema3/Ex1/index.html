@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Lenguaje de Marcas</title>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <!--link rel="stylesheet" href="main.css"-->
+    </head>
+
+    <body>
+        <header>
+            <h1 id="top">Lenguaje de Marcas.</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#ej1">Ejercicio 1.</a></li>
+                <li><a href="#ej2">Ejercicio 2.</a></li>
+                <li><a href="#ej3">Ejercicio 3.</a></li>
+                <li><a href="#ej4">Ejercicio 4.</a></li>
+            </ul>
+        </nav>
+
+        <main>
+        <!-- EJERCICIO 1 -->
+        <header>
+        <h1 id="ej1">Ejercicio 1</h1>
+        </header>
+        <article>
+            <p>Disponibles: Sol, Mercurio, Venus, Tierra, Marte</p>
+            <img src="img/sistemasolar.jpg" alt="Planetas" usemap="#planetas">
+            <map name="planetas">
+                <area target="_blank" alt="Sol" title="Sol" href="https://es.wikipedia.org/wiki/Sol" coords="24,306,100" shape="circle">
+                <area target="_blank" alt="Mercurio" title="Mercurio" href="https://es.wikipedia.org/wiki/Mercurio_(planeta)" coords="122,219,15" shape="circle">
+                <area target="_blank" alt="Venus" title="Venus" href="https://es.wikipedia.org/wiki/Venus_(planeta)" coords="156,206,15" shape="circle">
+                <area target="_blank" alt="Tierra" title="Tierra" href="https://es.wikipedia.org/wiki/La_Tierra_(planeta)" coords="190,188,19" shape="circle">
+                <area target="_blank" alt="Marte" title="Marte" href="https://es.wikipedia.org/wiki/Marte_(planeta)" coords="225,174,15" shape="circle">
+            </map>
+            <p><a href="#top">Volver arriba</a></p>
+        </article>
+
+
+        <!-- EJERCICIO 2 -->
+        <header>
+        <h1 id="ej2">Ejercicio 2</h1>
+        </header>
+        <article>
+            <p>Tecnologías Web</p>
+            <hr>
+            <dl>
+                <dt>CSS</dt>
+                <dd>Cascading Style Sheets</dd>
+                <dt>HTML</dt>
+                <dd>HyperText Markup Language</dd>
+                <dt>W3C</dt>
+                <dd>World Wide Web Consortium</dd>
+            </dl>
+            <p><a href="#top">Volver arriba</a></p>
+        </article>
+
+        <!-- EJERCICIO 3 -->
+        <header>
+        <h1 id="ej3">Ejercicio 3</h1>
+        </header>
+        <article>
+            <table border="1">
+                <tr>
+                    <th></th>
+                    <th colspan="2">Mafalda</th>
+                    <th colspan="2">Mortadelo</th>
+                </tr>
+                <tr>
+                    <th>Fecha</th>
+                    <th>Entrada</th>
+                    <th>Salida</th>
+                    <th>Entrada</th>
+                    <th>Salida</th>
+                </tr>
+                <tr>
+                    <th>15/10</th>
+                    <td>8:00</td>
+                    <td>15:00</td>
+                    <td>10:00</td>
+                    <td>12:00</td>
+                </tr>
+                <tr>
+                    <th>16/10</th>
+                    <td>9:00</td>
+                    <td>15:00</td>
+                    <td>9:30</td>
+                    <td>15:30</td>
+                </tr>
+                <tr>
+                    <th>09/08</th>
+                    <td>8:30</td>
+                    <td>12:30</td>
+                    <td>10:00</td>
+                    <td>22:00</td>
+                </tr>
+                <tr>
+                    <th>22/10</th>
+                    <td>18:00</td>
+                    <td>19:00</td>
+                    <td>10:00</td>
+                    <td>16:00</td>
+                </tr>
+                <tr>
+                    <th>25/10</th>
+                    <td>8:00</td>
+                    <td>12:00</td>
+                    <td>11:00</td>
+                    <td>17:00</td>
+                </tr>
+                <tr>
+                    <th>Importe Horas</th>
+                    <td colspan="2">250€</td>
+                    <td colspan="2">325€</td>
+                </tr>
+            </table>
+            <p><a href="#top">Volver arriba</a></p>
+        </article>
+
+        <!-- EJERCICIO 4 -->
+        <header>
+        <h1 id="ej4">Ejercicio 4</h1>
+        </header>
+        <article>
+            <form>
+                <fieldset>
+                    <legend>Información Principal</legend>
+                    <p><input type="text" placeholder="Nombre"></p>
+                    <p><input type="text" placeholder="Apellidos"></p>
+
+                    <p>Grupo de edad:</p>
+                    <p>
+                        <input type="radio"> 0 - 30
+                        <input type="radio"> 31 - 60
+                        <input type="radio"> 61 - 100
+                    </p> 
+                </fieldset>
+                <fieldset>
+                    <legend>Información adicional</legend>
+                    <p>Biografía</p>
+                    <textarea></textarea>
+                    <p>Imagen: <input type="file"></p>
+                    <fieldset>
+                        <legend>Intereses</legend>
+                        <p>Hobbies:</p>
+                        <select size="4" multiple>
+                            <option>Deportes</option>
+                            <option>Lectura</option>
+                            <option>Cine</option>
+                            <option>Naturaleza</option>
+                        </select>
+                        <p>Red social favorita:
+                        <select>
+                            <optgroup label="Redes sociales profesionales:">
+                                <option>LinkedIn</option>
+                                <option>Xing</option>
+                            </optgroup>
+                            <optgroup label="Redes sociales personales:">
+                                <option>Facebook</option>
+                                <option>Instagram</option>
+                            </optgroup>
+                        </select>
+                        </p>
+                    </fieldset>
+                </fieldset>
+            </form>
+            <p><a href="#top">Volver arriba</a></p>
+        </article>
+        </main>
+
+    </body>
+    <footer>Rafael Alberto Caballero Osuna</footer>
+</html>
