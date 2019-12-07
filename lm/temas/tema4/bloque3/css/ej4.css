@@ -1,0 +1,20 @@
+p {
+    color: coral;
+    width: 500px;
+    padding: 10px;
+}
+
+.p1 {
+    outline: 3px solid coral;
+    border: 1px solid black;
+}
+
+.p2 {
+    outline: 3px solid green;
+    border: 1px solid black;
+}
+
+.p3 {
+    outline: 3px dotted yellow;
+    border: 1px solid black;
+}

@@ -1,0 +1,6 @@
+body {
+    background-color: lightgray;
+}
+.p2::first-line{
+    color: red;
+}

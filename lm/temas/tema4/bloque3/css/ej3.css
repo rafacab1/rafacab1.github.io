@@ -1,0 +1,28 @@
+p {
+    color: blue;
+    padding: 15px;
+    width: 400px;
+}
+
+p:hover {
+    background-color: gray;
+}
+
+.p1 {
+    border: 3px solid blue;
+}
+
+.p2 {
+    border: 3px solid green;
+}
+
+.p3 {
+    border-top: 3px solid darkblue;
+    border-left: 3px solid lightblue;
+    border-bottom: 3px solid lightcoral;
+    border-right: 3px solid greenyellow;
+}
+
+.p4 {
+    border: 3px dotted yellow;
+}

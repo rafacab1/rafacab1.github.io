@@ -1,0 +1,8 @@
+body {
+    background-color: lightgray;
+}
+
+p::first-letter {
+    color: red;
+    font-size: xx-large;
+}

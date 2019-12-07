@@ -1,0 +1,14 @@
+body {
+    background-image: url(../img/flore.jpg) /* No tengo la imagen original del ejercicio */
+}
+
+p {
+    background-color: orange;
+    padding: 50px;
+    margin-top: 30%;
+    border: 2px solid black;
+    text-align: center;
+    font-size: xx-large;
+    color: gray;
+    opacity: 70%;
+}
