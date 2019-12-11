@@ -1,0 +1,46 @@
+div {
+    border: 5px solid green;
+    float: left;
+    margin: 30px;
+    width: 10vw;
+    height: 10vw;
+}
+
+.cuadrado1 {
+    border-radius: 8px;
+}
+
+.cuadrado2 {
+    border-radius: 10px;
+}
+
+.cuadrado3{
+    border-radius: 20px;
+}
+
+.cuadrado4 {
+    border-radius: 18px;
+}
+
+.cuadrado5 {
+    border-radius: 5px;
+}
+
+.cuadrado6 {
+    border-radius: 20px;
+}
+
+.cuadrado7 {
+    border-radius: 40px;
+}
+
+.cuadrado8 {
+    border-radius: 5px;
+}
+
+.cuadrado9 {
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 25px;
+}
