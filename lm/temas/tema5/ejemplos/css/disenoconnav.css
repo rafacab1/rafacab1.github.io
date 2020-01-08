@@ -1,0 +1,16 @@
+nav ul { /* ul es un contenedor flexible, así todos los elementos dentro de ul son flexibles */
+    display: flex;
+    /* justify-content: space-between; */
+    list-style: none;
+    padding: 20px;
+}
+
+li {
+    display: flex;
+}
+
+a {
+    border: 1px solid blue;
+    text-decoration: none;
+    padding: 15px;
+}
