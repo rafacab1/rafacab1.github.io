@@ -1,0 +1,29 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: grey;
+}
+
+@media (max-width: 720px) {
+    body {
+        background-color: gold;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        background-color: blueviolet;
+    }
+}
+
+@media (max-width: 360px) {
+    body {
+        background-color: aqua;
+    }
+}
+
+@media (max-width: 240px) {
+    body {
+        background-color: green
+    }
+}
