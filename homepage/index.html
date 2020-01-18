@@ -1,0 +1,145 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Bienvenido.</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <!-- <link rel="apple-touch-icon" href="icon.png"> -->
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed|Pacifico&display=swap" rel="stylesheet"> 
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+
+	<!-- Emisoras https://www.lawebdelprogramador.com/codigo/JavaScript/3509-Iniciar-y-Parar-un-sonido-con-Javascript.html -->
+
+	<script src="js/radios/l40c.js"></script>
+	<script src="js/radios/loca.js"></script>
+	<script src="js/radios/localat.js"></script>
+	<script src="js/radios/rfm.js"></script>
+	<script src="js/radios/mfm.js"></script>
+	<script src="js/radios/maxfm.js"></script>
+	<script src="js/radios/mega.js"></script>
+	<script src="js/radios/ffm.js"></script>
+	<script src="js/radios/igr.js"></script>
+
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+
+  <div id="inicio">Bienvenido</div>
+
+	<!-- Búsqueda Google -->
+	<center>
+	<FORM method=GET action="http://www.google.com/search"> 
+	<div id="googlediv">
+	<INPUT TYPE=text name=q size=31 maxlength=255 value="" id="googlebox" autocomplete="off" placeholder="B u s c a r   c o n   G o o g l e">
+	</div>
+	</FORM>
+  	</center>
+  
+
+
+
+		<div id="secciones">
+
+		<div id="webs" class="rrss">
+			<img src="img/rrss.png"> <br>
+			<div class="txt">
+				<a href="https://www.facebook.com">Facebook</a> <br>
+				<a href="https://www.twitter.com">Twitter</a> <br>
+				<a href="https://www.instagram.com">Instagram</a> <br>
+				<a href="https://www.gmail.com">Gmail</a> 
+			</div>
+		</div>
+
+		<div id="webs" class="foros">
+			<img src="img/foros.png"> <br>
+			<div class="txt">
+				<a href="https://www.forocoches.com">ForoCoches</a> <br>
+				<a href="https://www.htcmania.com">HTCMania</a> <br>
+				<a href="https://www.elotrolado.net">El Otro Lado</a> <br>
+				<a href="https://bandaancha.eu/">Bandaancha</a> <br>
+				<a href="https://reddit.com">Reddit</a> <br>
+				<a href="https://www.chollometro.com">Chollometro</a>
+			</div>
+		</div>
+
+		<div id="webs" class="multimedia">
+			<img src="img/multimedia.png"> <br>
+			<div class="txt">
+				<a href="https://www.youtube.com">YouTube</a> <br>
+				<a href="https://www.twitch.tv">Twitch</a> <br>
+				<a href="https://mixer.com/">Mixer</a> <br>
+				<a href="https://primevideo.com">Prime Video</a> <br>
+				<a href="https://soundcloud.com/">Soundcloud</a>
+			</div>
+		</div>
+
+		<div id="webs" class="radios">
+			<img src="img/radios.png"> <br>
+			<div class="txt">
+				<!-- Radios de COPE no funcionan, no consigo encontrar una URL para ellas -->
+				<div class="play" id="playl40c" onclick="los40classic()">Los 40 Classic</div>
+				<div class="play" id="playloca" onclick="locafm()">Loca FM</div>
+				<div class="play" id="playlocalat" onclick="localatino()">Loca Latino</div>
+				<!-- <div class="play" id="playrfm" onclick="rockfm()">Rock FM</div> -->
+				<div class="play" id="playmfm" onclick="melodiafm()">Melodía FM</div>
+				<div class="play" id="playmaxfm" onclick="maximafm()">Los 40 Dance</div>
+				<!-- <div class="play" id="playmega" onclick="megastar()">MegaStar</div> -->
+				<div class="play" id="playffm" onclick="flaixfunction()">Flaix FM</div>
+				<div class="play" id="playigr" onclick="ibizafunction()">Ibiza Global Radio</div>
+			</div>
+		</div>
+
+		</div>
+
+	<!-- CAMBIAR FONDO https://stackoverflow.com/questions/15231812/random-background-images-css3 https://stackoverflow.com/questions/10936350/resizing-background-images -->
+	<script type="text/javascript">
+		var totalCount = 16;
+
+		function ChangeIt() {
+			var num = Math.ceil(Math.random() * totalCount);
+			document.body.background = 'bgimg/' + 'bg' + num + '.jpg';
+			document.body.style.backgroundRepeat = "repeat"; // Background repeat
+			document.body.style.backgroundSize = "cover";
+		}
+	</script>
+
+	<script type="text/javascript">
+		ChangeIt();
+	</script>
+
+
+
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+
+  <!--
+    <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script> 
+  -->
+</body>
+
+</html>

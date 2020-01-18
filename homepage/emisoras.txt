@@ -1,0 +1,8 @@
+http://20133.live.streamtheworld.com/MAXIMAFM.mp3
+http://icecast-streaming.nice264.com/melodiafm?hash=1520730212720.mp3
+http://19643.live.streamtheworld.com/LOS40_CLASSIC.mp3
+http://audio-online.net:2300/live (LOCA)
+http://audio-online.net:8012/live (Loca LAT)
+http://rockfm.cope.stream.flumotion.com/cope/rockfm.mp3.m3u 
+http://megastar.cope.stream.flumotion.com/cope/megastar.mp3.m3u
+http://flaixfmmob.streaming-pro.com:8002/;
