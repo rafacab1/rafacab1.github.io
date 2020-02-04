@@ -1,0 +1,5 @@
+Falta etiqueta <?xml ...> y <!DOCTYPE html...> al inicio.
+
+Falta atributo alt en las dos imágenes que hay.
+
+Falta cerrar el párrafo que contiene la primera imagen.

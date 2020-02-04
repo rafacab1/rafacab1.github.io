@@ -1,0 +1,9 @@
+Falta <!DOCTYPE html...>
+
+Falta cerrar la etiqueta <head>
+
+Etiqueta <br> incorrecta, en XHTML se expresa como <br/>, y hay que meterla dentro de otra, como dentro de un <p> o un <h3> como en este caso.
+
+Etiqueta <p> abierta incorrectamente (está como < P> y es <p>).
+
+Falta cerrar la etiqueta <html>
