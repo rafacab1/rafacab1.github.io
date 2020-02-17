@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas [
+<!ELEMENT personas (persona+)>
+<!ATTLIST persona formapago CDATA (Contado|Tarjeta) "Contado">
+<!ELEMENT persona (nombre,mayor_edad?,ciudad)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT mayor_edad EMPTY>
+<!ELEMENT ciudad (#PCDATA)>
+]>
+
+<personas>
+<persona formapago="PayPal">
+    <nombre>Rafa Caballero</nombre>
+    <mayor_edad/>
+    <ciudad>Córdoba</ciudad>
+</persona>
+<persona formapago="Tarjeta">
+    <nombre>Dora la Exploradora</nombre>
+    <ciudad>Córdoba</ciudad>
+</persona>
+</personas>

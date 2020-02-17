@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE note [
-<!ELEMENT note (to,from,heading,body)>
+<!ELEMENT note (to+,from,heading*,(body|mensaje))>
 <!ELEMENT to (nombre, direccion)>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT direccion (#PCDATA)>
 <!ELEMENT from (#PCDATA)>
 <!ELEMENT heading (#PCDATA)>
 <!ELEMENT body (#PCDATA)>
+<!ELEMENT mensaje (#PCDATA)>
 ]>
 <note>
     <to>

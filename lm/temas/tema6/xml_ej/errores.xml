@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE errores [
+<!ELEMENT errores (error+)>
+<!ELEMENT error (tipo, codigo, descripcion, actividad, fecha_hora, nlinea, ncolumna)>
+<!ATTLIST error id CDATA #REQUIRED>
+<!ELEMENT tipo (AVISO|WARNING|FATAL)>
+<!ELEMENT AVISO EMPTY>
+<!ELEMENT WARNING EMPTY>
+<!ELEMENT FATAL EMPTY>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT actividad (#PCDATA)>
+<!ELEMENT fecha_hora (#PCDATA)>
+<!ELEMENT nlinea (#PCDATA)>
+<!ELEMENT ncolumna (#PCDATA)>
+]>
+<errores>
+    <error id="1">
+        <tipo>
+            <AVISO/>
+        </tipo>
+        <codigo>
+            cod1
+        </codigo>
+        <descripcion>
+            Tipos no coinciden
+        </descripcion>
+        <actividad>
+            nota.dtd
+        </actividad>
+        <fecha_hora>
+            17/02/2020:08:51
+        </fecha_hora>
+        <nlinea>
+            15
+        </nlinea>
+        <ncolumna>
+            3
+        </ncolumna>
+    </error>
+
+    <error id="2">
+        <tipo>
+            <WARNING/>
+        </tipo>
+        <codigo>
+            cod2
+        </codigo>
+        <descripcion>
+            element 'pais' is not allowed for content model 
+        </descripcion>
+        <actividad>
+            ejemplo13.xml
+        </actividad>
+        <fecha_hora>
+            17/02/2020:09:24
+        </fecha_hora>
+        <nlinea>
+            16
+        </nlinea>
+        <ncolumna>
+            12
+        </ncolumna>
+    </error>
+    <error id="3">
+        <tipo>
+            <AVISO/>
+        </tipo>
+        <codigo>
+            cod3
+        </codigo>
+        <descripcion>
+            mismatched tag
+        </descripcion>
+        <actividad>
+            ejemplo14.xml
+        </actividad>
+        <fecha_hora>
+            17/02/2020:09:35
+        </fecha_hora>
+        <nlinea>
+            6
+        </nlinea>
+        <ncolumna>
+            3
+        </ncolumna>
+    </error>
+    <error id="4">
+        <tipo>
+            <FATAL/>
+        </tipo>
+        <codigo>
+            cod4
+        </codigo>
+        <descripcion>
+            root element differs from that declared in DOCTYPE
+        </descripcion>
+        <actividad>
+            ejemplo14.xml
+        </actividad>
+        <fecha_hora>
+            17/02/2020:09:36
+        </fecha_hora>
+        <nlinea>
+            3
+        </nlinea>
+        <ncolumna>
+            10
+        </ncolumna>
+    </error>
+</errores>
+
