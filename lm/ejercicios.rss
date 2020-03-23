@@ -9,5 +9,10 @@
                 <link>https://rafacab1.github.io/lm/index.html</link>
                 <description>Canal RSS disponible en rafacab1.github.io, aquí se irán añadiendo todos los ejercicios de la clase de Lenguaje de Marcas.</description>
             </item>
+            <item>
+                <title>Item de prueba para la clase de Lenguaje de Marcas</title>
+                <link>https://rafacab1.github.io/lm/index.html</link>
+                <description>Prueba de uso de un canal RSS.</description>
+            </item>
     </channel>
 </rss>
