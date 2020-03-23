@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mediosDeTransporte [
+    <!ELEMENT mediosDeTransporte (medio+)>
+    <!ELEMENT medio EMPTY>
+    <!ATTLIST medio nombremedio ID #REQUIRED>
+    <!ATTLIST medio velocidad CDATA #IMPLIED>
+]>
+
+<mediosDeTransporte>
+    <medio nombremedio="bicicleta" velocidad="100km/h" /> <!-- Los valores de atributos no pueden contener el < --> <!-- Las etiquetas tienen que llevar un nombre que no sea variable, en este caso según el medio de transporte. -->
+    <medio nombremedio="patinete" velocidad="50 km/h" /> <!-- Etiqueta no cerrada --> <!-- Nombre atributo no puede llevar espacio. -->
+</mediosDeTransporte>

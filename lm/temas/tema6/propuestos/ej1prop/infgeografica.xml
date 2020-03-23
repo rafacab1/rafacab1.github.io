@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE geografia [
+    <!ELEMENT geografia (paises+)>
+    <!ELEMENT paises (pais, continente, capital)>
+    <!ELEMENT pais (#PCDATA)>
+    <!ELEMENT continente (#PCDATA)>
+    <!ELEMENT capital EMPTY>
+    <!ATTLIST capital nombre ID #REQUIRED>
+]>
+<geografia> <!-- Elementos no pueden llevar espacio -->
+    <paises>
+        <pais>España</pais> <!-- No puede haber dos elementos llamados iguales -->
+        <continente>Europa</continente>
+        <capital nombre="Madrid"></capital> <!-- Atributos se ponen en etiqueta inicio -->
+    </paises>
+</geografia>

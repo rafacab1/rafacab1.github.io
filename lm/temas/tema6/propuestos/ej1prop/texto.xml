@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE texto [
+    <!ELEMENT texto (titulo, parrafo+, url)>
+    <!ELEMENT titulo (#PCDATA)>
+    <!ELEMENT parrafo (#PCDATA|abreviatura)*>
+    <!ELEMENT abreviatura (#PCDATA)>
+    <!ELEMENT url (#PCDATA)>
+]>
+
+<texto>
+    <titulo>XML explicado a los niños</titulo> <!-- Etiqueta de inicio y etiqueta de cierre no coinciden. -->
+    <parrafo>El <abreviatura>XML</abreviatura> define cómo crear lenguajes de marcas.</parrafo> <!-- Tildes no permitidas -->
+    <parrafo>Las marcas se añaden a un documento de texto para añadir información.</parrafo>
+    <url>www.example.org</url> <!-- Los dos puntos confunden a XML -->
+</texto>

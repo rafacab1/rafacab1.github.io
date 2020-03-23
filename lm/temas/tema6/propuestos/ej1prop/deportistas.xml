@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE deportistas [
+    <!ELEMENT deportistas (deportista)+>
+    <!ELEMENT deportista (deporte, nombre)>
+    <!ELEMENT deporte EMPTY>
+    <!ATTLIST deporte deporte ID #REQUIRED>
+    <!ELEMENT nombre (#PCDATA)>
+]>
+<deportistas>
+    <deportista>
+        <deporte deporte="Atletismo" /> <!-- Poner deporte como atributo -->
+        <nombre>Jesse Owens</nombre>
+    </deportista> <!-- Cerrar deportista -->
+    <deportista>
+        <deporte deporte="Natación" /> <!-- Poner deporte como atributo -->
+        <nombre>Mark Spitz</nombre>
+    </deportista>
+</deportistas>

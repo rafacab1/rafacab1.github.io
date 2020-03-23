@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    background-color: green;
+    flex-flow: row wrap;
+    min-width: 400px;
+}
+
+ul {
+    display: flex;
+    flex: 1;
+    align-self: flex-end;
+    width: 100%;
+}
+
+.search {
+    flex: 0 0 400px;
+    justify-self: flex-end;
+    align-self: center;
+}
+
+li {
+    display: inline;
+    padding: 0px 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

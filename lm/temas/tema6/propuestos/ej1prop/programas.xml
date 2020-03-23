@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE programas [
+    <!ELEMENT programas (programa+)>
+    <!ELEMENT programa EMPTY>
+    <!ATTLIST programa nombre ID #REQUIRED>
+    <!ATTLIST programa licencia CDATA #IMPLIED>
+]>
+<programas>
+    <programa nombre="Firefox" licencia="GPL" /> <!-- No puede haber dos atributos llamados igual -->
+    <programa nombre="LibreOffice" licencia="LGPL" />
+    <programa nombre="Inkscape" licencia="GPL" /> <!-- Los valores de los atributos deben ir entrecomillados -->
+</programas>

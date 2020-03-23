@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Ejercicios de Rafa Caballero</title>
+        <link>https://rafacab1.github.io/lm/index.html</link>
+        <description>Canal RSS de los ejercicios hechos por Rafa Caballero de 1º DAW</description>
+            <item>
+                <title>Implementación de canal RSS</title>
+                <link>https://rafacab1.github.io/lm/index.html</link>
+                <description>Canal RSS disponible en rafacab1.github.io, aquí se irán añadiendo todos los ejercicios de la clase de Lenguaje de Marcas.</description>
+            </item>
+    </channel>
+</rss>
