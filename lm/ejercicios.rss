@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
     <channel>
-        <title>Ejercicios de Rafa Caballero</title>
+        <title>Rafa Caballero. Ejercicios Lenguaje de Marcas</title>
             <item>
                 <title>Implementación de canal RSS</title>
                 <link>https://rafacab1.github.io/lm/index.html</link>
