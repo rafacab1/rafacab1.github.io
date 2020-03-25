@@ -2,8 +2,6 @@
 <rss version="2.0">
     <channel>
         <title>Ejercicios de Rafa Caballero</title>
-        <link>https://rafacab1.github.io/lm/index.html</link>
-        <description>Canal RSS de los ejercicios hechos por Rafa Caballero de 1º DAW</description>
             <item>
                 <title>Implementación de canal RSS</title>
                 <link>https://rafacab1.github.io/lm/index.html</link>
@@ -13,6 +11,31 @@
                 <title>Item de prueba para la clase de Lenguaje de Marcas</title>
                 <link>https://rafacab1.github.io/lm/index.html</link>
                 <description>Prueba de uso de un canal RSS.</description>
+            </item>
+            <item>
+                <title>[XSD] Paises (act 1)</title>
+                <link>https://github.com/rafacab1/1daw-xml-lm/tree/master/paises</link>
+                <description>Actividad 1 de XSD</description>
+            </item>
+            <item>
+                <title>[XSD] Personas (act 2)</title>
+                <link>https://github.com/rafacab1/1daw-xml-lm/tree/master/personas</link>
+                <description>Actividad 2 de XSD</description>
+            </item>
+            <item>
+                <title>[XSD] Personas v1 (act 3)</title>
+                <link>https://github.com/rafacab1/1daw-xml-lm/tree/master/personas_v1</link>
+                <description>Actividad 3 de XSD</description>
+            </item>
+            <item>
+                <title>[XSD] Persona v2 (act 4)</title>
+                <link>https://github.com/rafacab1/1daw-xml-lm/tree/master/personas_v2%20(act%204)</link>
+                <description>Actividad 4 de XSD</description>
+            </item>
+            <item>
+                <title>[XSD] Ciclos (act 5)</title>
+                <link>https://github.com/rafacab1/1daw-xml-lm/tree/master/ciclos%20(act%205)</link>
+                <description>Actividad 5 de XSD</description>
             </item>
     </channel>
 </rss>
