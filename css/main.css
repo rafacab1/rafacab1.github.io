@@ -1,6 +1,6 @@
 body {
     /* background-color: rgb(224, 224, 224); */
-    background-image: url("../img/background2.jpg"); /* https://pixabay.com/es/photos/equipo-c%C3%B3digo-de-computadora-1209641/ */
+    background-image: url("../img/background3.jpg");
 }
 #textheader {
     font-family: Rubik;
@@ -28,21 +28,14 @@ h2 {
     padding: 20px;
     border-radius: 4px;
     background-color: black;
+    opacity: 0.8;
     color: rgb(226, 226, 226);
     box-shadow: 0px 0px 15px black;
 }
 
-#enlaces, #aboutme {
+/* #enlaces, #aboutme {
     display: inline-block;
-}
-
-#aboutme {
-    max-width: 400px !important;
-}
-
-#rrss {
-    max-width: 300px !important;
-}
+} */
 
 p {
     font-family: Rubik;
@@ -58,4 +51,34 @@ a {
 
 a:hover {
     color: rgb(189, 234, 255);
+}
+
+.flex-container {
+    display: flex;
+}
+
+#enlaces {
+    flex: 1;
+}
+
+#aboutme {
+    max-width: 400px !important;
+}
+
+#rrss {
+    max-width: 300px !important;
+}
+
+@media (max-width: 1000px) {
+    .flex-container {
+        display: inline;
+    }
+
+    #aboutme {
+        max-width: 200px;
+    }
+
+    #rrss {
+        max-width: 200px;
+    }
 }
