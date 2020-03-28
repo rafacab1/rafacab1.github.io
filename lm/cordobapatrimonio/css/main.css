@@ -1,13 +1,104 @@
-body {
-    font-family: Rubik;
+* {
+    box-sizing: border-box;
+    font-family: 'Noto Sans SC';
+}
+
+#header {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid rgb(112, 153, 112);
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.menuizda {
+    float: left;
+    width: 12%;
+    text-align: center;  
+}
+
+.menuizda a{
+    padding: 10px;
+    margin: 2px;
+    margin-bottom: 5px;
+    display: block;
+    width: 100%;
+    background-color: rgb(161, 221, 161);
+    color: black;
+    border: 1px solid rgb(170, 223, 140);
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menuizda a:hover {
+    background-color: rgb(112, 153, 112);
+}
+
+#centro {
+    float: left;
+    width: 70%;
+    padding: 0 20px;
+    text-align: justify;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+form {
     text-align: center;
 }
 
-h1, h2, h3, aside, footer, img, .menu, .goup {
+#menudcha {
+    float: left;
+    width: 18%;
+    background-color: rgb(161, 221, 161);
+    color: black;
+    padding: 10px;
     text-align: center;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(170, 223, 140);
 }
 
-a {
-    text-decoration: underline;
-    color: green;
+#menudcha a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgb(101, 134, 82);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 1px;
+    transition: 0.5s;
 }
+
+#menudcha a:hover {
+    background-color: rgb(112, 153, 112);
+}
+
+footer {
+    float: left;
+    margin: 2px;
+    width: 100%;
+    background-color: rgb(161, 221, 161);
+    color: black;
+    text-align: center;
+    border: 1px solid rgb(170, 223, 140);
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .menuizda, #centro, #menudcha {
+        width: 100%
+    }
+}
+

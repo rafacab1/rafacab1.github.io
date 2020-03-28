@@ -42,5 +42,10 @@
                 <link>https://rafacab1.github.io/lm/temas/tema7/ejercicios/u7a1xml/index.html</link>
                 <description>Ejercicios 1, 2 y 3 de la primera relación de ejercicios de la séptima unidad.</description>
             </item>
+            <item>
+                <title>[HTML][CSS] Rediseño Córdoba Ciudad Patrimonio</title>
+                <link>https://rafacab1.github.io/lm/cordobapatrimonio/</link>
+                <description>Diseño responsive en el proyecto "Córdoba Ciudad Patrimonio".</description>
+            </item>
     </channel>
 </rss>
