@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="personas.xsd">
+
+    <persona fechanacimiento="2001-10-26">
+        <datos>
+            <nombre>Rafa</nombre>
+            <apellidos>Caballero</apellidos>
+            <dni>12345678A</dni>
+        </datos>
+        <comentario>Va a aprobar Lenguaje de Marcas</comentario>
+    </persona>
+
+</personas>

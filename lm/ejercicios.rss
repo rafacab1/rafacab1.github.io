@@ -47,5 +47,25 @@
                 <link>https://rafacab1.github.io/lm/cordobapatrimonio/</link>
                 <description>Diseño responsive en el proyecto "Córdoba Ciudad Patrimonio".</description>
             </item>
+            <item>
+                <title>[XML] Ejercicios propuestos de XML</title>
+                <link>https://rafacab1.github.io/lm/temas/tema7/ejercicios/u7a1xml/index.html</link>
+                <description>Algunos ejercicios propuestos de XML.</description>
+            </item>
+            <item>
+                <title>[XSD] Ejercicios propuestos de XSD</title>
+                <link>https://rafacab1.github.io/lm/temas/tema7/ejercicios/u7a2xsd/index.html</link>
+                <description>Algunos ejercicios propuestos de XSD.</description>
+            </item>
+            <item>
+                <title>[SVG] Ejercicios propuestos de SVG</title>
+                <link>https://rafacab1.github.io/lm/temas/tema7/ejercicios/u7a5svg/index.html</link>
+                <description>Ejercicios de SVG: Marca del sitio y un coronavirus.</description>
+            </item>
+            <item>
+                <title>[KML] Ejercicios propuestos de KML</title>
+                <link>https://rafacab1.github.io/lm/temas/tema7/ejercicios/u7a6kml/index.html</link>
+                <description>Ejercicios propuestos de KML: aeropuertos y ruta turística.</description>
+            </item>
     </channel>
 </rss>

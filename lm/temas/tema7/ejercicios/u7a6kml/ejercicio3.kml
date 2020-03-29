@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>KmlFile</name>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0055ff</color>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<BalloonStyle>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff0055ff</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark>
+		<name>Turismo</name>
+		<styleUrl>#msn_ylw-pushpin</styleUrl>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+				-4.776469209899118,37.87567356762716,0 -4.779120528695577,37.87762790215636,0 -4.780733140309751,37.87647761281353,0 -4.781277311580445,37.87727273955491,0 -4.779733805494871,37.8779812752523,0 -4.780426761537429,37.87906347890196,0 -4.780212317611192,37.87955104760518,0 -4.781091203828946,37.87947901010572,0 -4.781071491630292,37.88039990957987,0 -4.780357318903825,37.88087332981212,0 -4.780095421489979,37.88184755085049,0 -4.779808986419287,37.88240935406742,0 -4.779598076598579,37.88268305576775,0 -4.778315354291537,37.88324258107522,0 -4.778151374886013,37.88379106914574,0 -4.779090846896409,37.88437059756867,0 -4.780010679340182,37.88470658018871,0 -4.784661561286528,37.8851382051922,0 -4.784991383516905,37.88102230726782,0 -4.78408575012179,37.88047402580804,0 -4.782676968086741,37.87781393245646,0 -4.781374092337794,37.87725627777846,0 -4.780804015418153,37.87637984359576,0 -4.775264346056481,37.87962007630043,0 -4.776734906393644,37.88366810405569,0 -4.77594075728584,37.88461499637884,0 -4.775145815872703,37.88367983693906,0 
+			</coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>
