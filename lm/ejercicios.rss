@@ -67,5 +67,10 @@
                 <link>https://rafacab1.github.io/lm/temas/tema7/ejercicios/u7a6kml/index.html</link>
                 <description>Ejercicios propuestos de KML: aeropuertos y ruta turística.</description>
             </item>
+            <item>
+                <title>[XPATH] Ejercicios clase 15/04/2020</title>
+                <link>https://github.com/rafacab1/1daw-xml-lm/tree/master/abril2020/dia15</link>
+                <description>Ejercicios hechos en la clase del día 15 de abril de 2020.</description>
+            </item>
     </channel>
 </rss>
