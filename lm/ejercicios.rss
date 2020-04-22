@@ -72,5 +72,15 @@
                 <link>https://github.com/rafacab1/1daw-xml-lm/tree/master/abril2020/dia15</link>
                 <description>Ejercicios hechos en la clase del día 15 de abril de 2020.</description>
             </item>
+            <item>
+                <title>[XSL] Ejercicios clase 20/04/2020</title>
+                <link>https://rafacab1.github.io/lm/temas/tema7/xsl/index.html</link>
+                <descripcition>Ejercicio 1 de XSL hecho en la clase del día 20 de abril de 2020.</descripcition>
+            </item>
+            <item>
+                <title>[XSL] Ejercicios clase 22/04/2020</title>
+                <link>https://rafacab1.github.io/lm/temas/tema7/xsl/index.html</link>
+                <description>Ejercicios hechos en la clase del día 22 de abril de 2020.</description>
+            </item>
     </channel>
 </rss>
