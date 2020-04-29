@@ -79,8 +79,13 @@
             </item>
             <item>
                 <title>[XSL] Ejercicios clase 22/04/2020</title>
-                <link>https://rafacab1.github.io/lm/temas/tema7/xsl/index.html</link>
+                <link>https://rafacab1.github.io/lm/temas/tema7/ejercicios/u7a8xsl/index.html</link>
                 <description>Ejercicios hechos en la clase del día 22 de abril de 2020.</description>
+            </item>
+            <item>
+                <title>[XSL] Ejercicio 5 Propuestos</title>
+                <link>https://rafacab1.github.io/lm/temas/tema7/ejercicios/u7a8xsl/propuestos/ej5/localidad.xml</link>
+                <description>Ejercicio hecho en la clase del día 29 de abril de 2020.</description>
             </item>
     </channel>
 </rss>
