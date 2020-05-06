@@ -87,5 +87,10 @@
                 <link>https://rafacab1.github.io/lm/temas/tema7/ejercicios/u7a8xsl/propuestos/ej5/localidad.xml</link>
                 <description>Ejercicio hecho en la clase del día 29 de abril de 2020.</description>
             </item>
+            <item>
+                <title>[CSS] Rediseño de la página principal de Lenguaje de Marcas</title>
+                <link>https://rafacab1.github.io/lm</link>
+                <description>Rediseño simple de la página principal y las de cada tema para que también se vea de manera correcta en dispositivos móviles con pantallas pequeñas.</description>
+            </item>
     </channel>
 </rss>
