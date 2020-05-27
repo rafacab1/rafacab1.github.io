@@ -6,6 +6,7 @@
         <meta name="description" content="">
         <meta name="keywords" content="erp, empresas, work, trabajo, office, sap, enterprise, odoo, html, css, bootstrap, lm, daw, lenguajes de marcas, proyectos">
         <link href="../css/main.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../img/favicon.png" type="image/png" />
         <!-- Font Awesome 4 -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- Bootstrap 4.5 -->
@@ -51,8 +52,276 @@
         </div>
 
         <div class="container">
-          
+          <p class="text-justify">Odoo es un software ERP (<a href="../whatis/">si no sabes que es, aquí hablo sobre ello</a>) que tiene la ventaja frente otros ERP de que es de código abierto, y además gratuito, por lo que con Odoo no tendremos que pagar una cara licencia de SAP o cualquier otro ERP.</p>
+          <p class="text-justify">En este artículo te enseñaré a instalar Odoo 13 en Windows, si nunca has usado un ERP en tu empresa, te invito a que lo leas y veas parte de sus funcionalidades.</p>
+          <div class="imagen">
+            <img src="img/odoobiglogo.jpg" class="img-fluid img-thumbnail mx-auto d-block shadow"/>
+          </div>
+          <p class="text-justify">Lo primero que debemos hacer es descargar Odoo desde la página oficial: <a href="https://nightly.odoo.com/" target="__blank">https://nightly.odoo.com/</a></p>
+          <p class="text-justify">Pulsamos sobre 13 (Stable) para descargar la última versión. <br/> Entraremos a un directorio en el que debemos buscar el instalador para Windows. Asi que pulsamos en Windows y bajamos abajo del todo para descargar la última compilación de Odoo.</p>
+          <div class="alert alert-success" role="alert">
+            Si alguna imagen no la ves correctamente pulsa sobre ella para abrirla en otra pestaña.
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/descarga/1descarga.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/descarga/1descarga.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+  
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/descarga/2descarga.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/descarga/2descarga.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+  
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/descarga/3descarga.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/descarga/3descarga.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="container">
+          <p class="text-justify">Abrimos el ejecutable y nos pedirá el idioma, ponemos inglés ya que no está el español. Nos aparecerá un típico asistente de instalación, pulsamos en siguiente.</p>
         </div>
 
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/instalacion/1ins.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/instalacion/1ins.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+  
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/instalacion/2ins.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/instalacion/2ins.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <p class="text-justify">Leemos los términos y condiciones, si estamos de acuerdo los aceptamos y en el paso siguiente dejamos las opciones como vienen, ya que también nos hará falta instalar PostgreSQL para usarlo como sistema gestor de base de datos.</p>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/instalacion/3ins.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/instalacion/3ins.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+    
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/instalacion/4ins.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/instalacion/4ins.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <p class="text-justify">Ahora nos pedirá los datos para la conexión, en mi caso dejaré localhost, el puerto 5432, y usaré como usuario y contraseña admin.</p>
+          <div class="alert alert-danger" role="alert">
+            <a href="https://www.welivesecurity.com/la-es/2018/12/19/las-25-contrasenas-mas-populares-del-2018/" class="alert-link" target="__blank">IMPORTANTE:</a> No recomiendo usar ni este usuario ni esta contraseña ya que puede suponer un problema de seguridad muy grande. En mi caso lo hago porque es un servidor de pruebas.
+          </div>
+          <p class="text-justify">Después de configurar esos parámetros indicamos donde queremos instalar Odoo y continuamos.</p>
+        </div> 
+
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/instalacion/5ins.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/instalacion/5ins.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+    
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/instalacion/6ins.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/instalacion/6ins.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <p class="text-justify">Tras pulsar en Install empezará a instalarse Odoo y PostgreSQL, al cabo de un rato, cuando ponga Completed ya habrá acabado la instalación. Al finalizar el asistente nos dará la opción de abrir Odoo y esto nos abrirá una ventana de nuestro navegador.</p>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/instalacion/7ins.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/instalacion/7ins.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+    
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/instalacion/8ins.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/instalacion/8ins.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+            
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/instalacion/9ins.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/instalacion/9ins.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/preconf/1preconf.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/preconf/1preconf.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <p class="text-justify">En esta ventana se creará la base de datos y se nos pedirán algunos datos principales. También nos da la opción de cargar unos datos de demostración por defecto, pero en este caso se los indicaré a mano para mostrar como se hace. Al pulsar en Create Database, llegaremos al panel de aplicaciones de Odoo. ¡Ya lo tenemos instalado!</p>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/preconf/2preconf.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/preconf/2preconf.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/preconf/3preconf.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/preconf/3preconf.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <p class="text-justify" id="lista">En esta guía veremos tres aplicaciones que me parecen mas relevantes e interesantes para una empresa pequeña o negocio pequeño:</p>
+          <ul>
+            <li><a href="#inv">Inventario</a></li>
+            <li><a href="#gde">Empleados</a></li>
+            <li><a href="#tpv">Punto de venta</a></li>
+          </ul>
+        </div>
+
+        <div class="container">
+          <h1 id="inv">Aplicación: Inventario</h1>
+          <p class="text-justify">Lo primero será localizar la aplicación de Inventario y darle a Instalar. Tardará un momento en instalarla y cuando se instale entraremos a ella.</p>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/cfg/inv/1.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/cfg/inv/1.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/cfg/inv/2.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/cfg/inv/2.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <p class="text-justify">En este ejemplo simularemos que nos llega un pedido, para ello vamos a Operaciones y Transferencias, y luego a Crear</p>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/cfg/inv/3.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/cfg/inv/3.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/cfg/inv/4.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/cfg/inv/4.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <p class="text-justify">Nos aparecerá un formulario que debemos rellenar. Empezemos por el contacto, al hacer click veremos que no tenemos ninguno, asi que le damos a Crear y rellenamos todos los datos.</p>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/cfg/inv/5.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/cfg/inv/5.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/cfg/inv/6.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/cfg/inv/6.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <p class="text-justify">Para el producto deberemos hacer la misma operación, tendremos que crearlo. Una vez esté todo completo le damos a guardar y ya nos aparecerá la operación.</p>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/cfg/inv/7.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/cfg/inv/7.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/cfg/inv/8.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/cfg/inv/8.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/cfg/inv/9.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/cfg/inv/9.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <p class="text-justify"><a href="#lista">Volver arriba</a></p>
+        </div>
+
+        <div class="container">
+          <h1 id="gde">Aplicación: Empleados</h1>
+          <p class="text-justify">Al igual que antes, lo primero será localizar la aplicación de Inventario y darle a Instalar. Tardará un momento en instalarla y cuando se instale entraremos a ella y veremos la lista de los empleados.</p>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/cfg/gde/1.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/cfg/gde/1.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/cfg/gde/2.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/cfg/gde/2.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <p class="text-justify">Pulsamos sobre Crear y podremos escribir la información del nuevo empleado de la empresa, al darle en guardar lo veremos también en la lista de empleados.</p>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/cfg/gde/3.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/cfg/gde/3.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/cfg/gde/4.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/cfg/gde/4.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <p class="text-justify"><a href="#lista">Volver arriba</a></p>
+        </div>
+
+        <div class="container">
+          <h1 id="tpv">Aplicación: Punto de Venta</h1>
+          <p class="text-justify">De nuevo, lo primero será localizar la aplicación de Inventario y darle a Instalar. Tardará un momento en instalarla y cuando se instale entraremos a ella y veremos la lista de los empleados. Pulsamos sobre nueva sesión</p>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/cfg/tpv/1.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/cfg/tpv/1.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/cfg/tpv/2.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/cfg/tpv/2.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <p class="text-justify">Veremos una interfaz típica de un TPV, desde la que podremos realizar cálculos, meter productos, imprimir tickets, etc.</p>
+        </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/cfg/tpv/3.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/cfg/tpv/3.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/cfg/tpv/4.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/cfg/tpv/4.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 imagen">
+              <a href="img/cfg/tpv/5.png" data-toggle="tooltip" title="Click para ver la imagen más grande" target="__blank"><img src="img/cfg/tpv/5.png" class="img-fluid mx-auto d-block shadow"/></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <p class="text-justify"><a href="#lista">Volver arriba</a></p>
+        </div>
+
+        <div class="container">
+          <p class="text-justify">Como podemos ver, hay muchas aplicaciones, así que sería difícil revisar todas, pero de todas maneras hemos visto que tienen un funcionamiento similar y todas perfectamente integradas entre sí, así que no tendríamos mucho problema a la hora de querer instalar cualquier otra.</p>
+        </div>
     </body>
 </html>
