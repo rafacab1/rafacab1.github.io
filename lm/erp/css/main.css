@@ -17,3 +17,7 @@
     height: 15vw;
     object-fit: cover;
 }
+
+.imagen {
+    padding-bottom: 20px;
+}
