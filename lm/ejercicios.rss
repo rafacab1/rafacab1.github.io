@@ -92,5 +92,10 @@
                 <link>https://rafacab1.github.io/lm</link>
                 <description>Rediseño simple de la página principal y las de cada tema para que también se vea de manera correcta en dispositivos móviles con pantallas pequeñas.</description>
             </item>
+            <item>
+                <title>[ERP][HTML][CSS][BOOTSTRAP] Web sobre ERP e Instalación de Odoo</title>
+                <link>https://rafacab1.github.io/lm/erp</link>
+                <description>Web con información sobre lo que es un ERP y la instalación del software Odoo usando Bootstrap.</description>
+            </item>
     </channel>
 </rss>
