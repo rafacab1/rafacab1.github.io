@@ -1,34 +1,132 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="utf-8">
-        <title>Rafa C.</title>
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-        <link href="https://fonts.googleapis.com/css?family=Rubik:300,400&display=swap" rel="stylesheet"> 
-
-    </head>
-    <body>
-        <header>
-            <h1 id="textheader">Rafa C.</h1>
-        </header>
-        
-        <div class="flex-container">
-        <section id="enlaces">
-        <h2>Enlaces.</h2>
-        <a href="lm/index.html">Lenguaje de Marcas</a>
-        </section>
-
-        <section id="aboutme">
-        <h2>Acerca de mí.</h2>
-        <p>Técnico de Sistemas Microinformáticos y Redes.</p>
-        <p>Actualmente estudiando Desarrollo de Aplicaciones Web.</p>
-        </section>
-
-        <section id="rrss">
-        <a href="https://twitter.com/rafacab_dev?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @rafacab_dev</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <br><br>
-        <a class="twitter-timeline" data-width="300" data-height="400" data-theme="dark" data-link-color="#E81C4F" href="https://twitter.com/rafacab_dev?ref_src=twsrc%5Etfw">Tweets by rafacab_dev</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
-        </section>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.min.css">
+    <!-- normalize.css -->
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Google Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <!-- Font Awesome 4 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- JS -->
+    <script src="js/main.js"></script>
+    <title>Rafa Caballero</title>
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" alt="Logo del portfolio de Rafa Caballero">
+        <nav>
+            <ul>
+                <a href="#" id="botonNav"><li id="btnNav"><span class="material-icons" id="btnFlecha">keyboard_arrow_down</span></li></a>
+                <a href="#quienSoy" name="listItem" class="listaOculta"><li>¿Quién soy?</li></a>
+                <a href="#estudios" name="listItem" class="listaOculta"><li>Estudios</li></a>
+                <a href="#conocimientos" name="listItem" class="listaOculta"><li>Conocimientos</li></a>
+                <a href="#proyectos" name="listItem" class="listaOculta"><li>Proyectos</li></a>
+                <a href="#rrss" name="listItem" class="listaOculta"><li>Redes Sociales y contacto</li></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <div>
+        <div class="imagenFondo">
+            <div class="nombre">
+                <h1>Rafa Caballero</h1>
+                <span>Desarrollador web y técnico en sistemas microinformáticos y redes</span>
+            </div>
         </div>
-    </body>
+    </div>
+    <a href="#" id="btnFlotante"><i class="fa fa-chevron-up"></i></a>
+    <section id="quienSoy">
+        <article>
+            <h2>¿Quién soy?</h2>
+            <img src="img/avatar.jpg" alt="Foto de Rafa Caballero">
+            <p>¡Hola! Soy Rafa Caballero, técnico en sistemas microinformáticos y redes desde 2018 y desde hace poquito desarrollador de aplicaciones web. Llevo toda mi vida usando ordenadores, encantado con ellos desde el primer ordenador que llegó a mi casa, en ese momento tuve claro que era lo que me gustaba y a lo que me quería dedicar "de mayor".</p>
+        </article>
+    </section>
+    <div class="separador"></div>
+    <section id="estudios">
+        <article>
+            <h2>Estudios</h2>
+            <ul>
+                <li>C.F.G.S. Desarrollo de Aplicaciones Web en I.E.S. Gran Capitán (Córdoba) (2019-2021)</li>
+                <li>C.F.G.M. Técnico en Sistemas Microinformáticos y Redes en I.E.S. Marqués de Comares (Lucena, Córdoba) (2017-2019)</li>
+            </ul>
+        </article>
+    </section>
+    <div class="separador"></div>
+    <section id="conocimientos">
+        <article>
+            <h2>Conocimientos</h2>
+            <div id="logosConocimientos">
+                <img src="img/logos/html.png" alt="HTML 5" title="HTML 5">
+                <img src="img/logos/CSS.3.svg" alt="CSS 3" title="CSS 3">
+                <img src="img/logos/javascript.jpg" alt="JavaScript" title="JavaScript">
+                <img src="img/logos/php.svg" alt="PHP" title="PHP">
+                <img src="img/logos/java.png" alt="Java" title="Java">
+                <img src="img/logos/python.svg" alt="Python" title="Python">
+                <img src="img/logos/mysql.png" alt="MySQL" title="MySQL">
+                <img src="img/logos/oracle.png" alt="Oracle Database" title="Oracle Database">
+                <img id="windows" src="img/logos/windows.png" alt="Windows" title="Windows">
+                <img id="linux" src="img/logos/linux.png" alt="Linux" title="Linux">
+            </div>
+        </article>
+    </section>
+    <div class="separador"></div>
+    <section id="proyectos">
+        <article>
+            <h2>Proyectos</h2>
+            <div class="proyecto">
+                <a href="https://github.com/rafacab1/2daw-dwes-symblog" target="__blank">
+                <img src="img/proyectos/symblog.png" alt="Captura de pantalla de Symblog">
+                <h3>Symblog</h3>
+                </a>
+                <p>Blog hecho con PHP con accesos a BBDD usando el modelo vista controlador.</p>
+            </div>
+            <div class="proyecto">
+                <a href="https://github.com/rafacab1/gestisimal-fx" target="__blank">
+                <img src="img/proyectos/gestisimal.png" alt="Captura de pantalla de Gestisimal">
+                <h3>Gestisimal</h3>
+                </a>
+                <p>Aplicación para la gestión de un almacén hecha en Java y JavaFX.</p>
+            </div>
+            <div class="proyecto">
+                <a href="https://github.com/rafacab1/" target="__blank">
+                <img src="img/proyectos/buscaminas.png" alt="Captura de pantalla del buscaminas">
+                <h3>Buscaminas</h3>
+                </a>
+                <p>Buscaminas realizado con JavaScript, funcional tanto en consola como en un navegador. (En progreso)</p>
+            </div>
+            <div class="proyecto">
+                <a href="https://github.com/rafacab1/" target="__blank">
+                <img src="img/proyectos/github.png" alt="Captura de pantalla del perfil de GitHub de Rafa">
+                <h3>Tareas de DAW</h3>
+                </a>
+                <p>Puedes ver ejercicios que realicé en el ciclo formativo de desarrollo de aplicaciones web en mi perfil de GitHub.</p>
+            </div>
+        </article>
+    </section>
+    <div class="separador"></div>
+    <section id="rrss">
+        <article>
+            <h2>Redes Sociales y contacto</h2>
+            <div>
+                <a href="https://github.com/rafacab1" target="__blank" id="github"><i class="fa fa-github-square"></i></a>
+                <a href="https://twitter.com/rafacab_dev" target="__blank" id="twitter"><i class="fa fa-twitter-square"></i></a>
+                <a href="https://www.linkedin.com/in/rafa-caballero-dev/" target="__blank" id="linkedin"><i class="fa fa-linkedin-square"></i></a>
+                <a href="mailto:rafacab.dev@gmail.com" target="__blank"><i class="fa fa-envelope"></i></a>
+            </div>
+        </article>
+    </section>
+    <div class="separador"></div>
+    </main>
+    <footer>
+        <p>Rafa Caballero &copy; 2021</p>
+    </footer>
+</body>
 </html>

@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "0.0.1",
+  "description": "Portfolio Rafa Caballero",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/iesgrancapitan-diw/practica14-diw-rafacab1.git"
+  },
+  "keywords": [
+    "portfolio",
+    "daw",
+    "work"
+  ],
+  "author": "Rafa Caballero",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/iesgrancapitan-diw/practica14-diw-rafacab1/issues"
+  },
+  "homepage": "https://github.com/iesgrancapitan-diw/practica14-diw-rafacab1#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
